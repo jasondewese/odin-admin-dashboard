@@ -1,5 +1,26 @@
-body {
-    background-color: antiquewhite;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr 5fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+    background-color: #0ea5e9;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / -1;
+    background-color: #fafafa;
+}
+
+.main {
+    grid-area: 2 / 2 /-1 / -1;
+    background-color: #e2e8f0;
 }

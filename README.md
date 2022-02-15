@@ -3,4 +3,4 @@ Final project of the intermediate HTML and CSS section of The Odin Project curri
 
 The final result should look something like the included 'dashboard-project-design' image file
 
-Logos from Materian Design Icons: https://materialdesignicons.com/ 
+Logos from Material Design Icons: https://materialdesignicons.com/ 

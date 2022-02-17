@@ -70,3 +70,15 @@ html {
     height: auto;
     
 }
+
+.header *{
+    border: solid 1px black;
+}
+
+.header-top {
+    border: solid 1px red;
+}
+
+.header-bottom {
+    border: solid 1px blue;
+}

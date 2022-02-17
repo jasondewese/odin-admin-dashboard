@@ -71,14 +71,53 @@ html {
     
 }
 
-.header *{
-    border: solid 1px black;
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .header-top {
-    border: solid 1px red;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
 
 .header-bottom {
-    border: solid 1px blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.head-top-left {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header form {
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.submit-btn {
+    margin-right: 1rem;
+}
+
+.header button {
+    border: none;
+    background-color: #fafafa;
+}
+
+.header button:hover {
+    cursor: pointer;
+}
+
+.header input {
+    width: 75%;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #e2e8f0;
 }

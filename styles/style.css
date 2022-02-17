@@ -187,3 +187,24 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
+
+main {
+    display:grid;
+    grid-template: 1fr 1fr / 5fr 2fr;
+}
+
+main>div {
+    border: 1px black solid;
+}
+
+.projects-section {
+    grid-area: 1 / 1 / -1 / 2;
+}
+
+.announcements-section {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending-section {
+    grid-area: 2 / 2 / 3 / 3;
+}

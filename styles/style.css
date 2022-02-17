@@ -310,3 +310,8 @@ main {
     color: #737373;
 }
 /***End main section styling***/
+
+img:hover, .project-title:hover, .announcement-title:hover,
+.trending-tag:hover, .user-name:hover {
+    cursor: pointer;
+}

@@ -6,3 +6,8 @@ The final result should look something like the included 'dashboard-project-desi
 Logos from Material Design Icons: https://materialdesignicons.com/ 
 as well as wikimedia free icons under Creative Common license: https://creativecommons.org/licenses/by/4.0/deed.en 
 
+
+
+Things I learned in this project:
+
+-Using the z-index to place elements higher or lower for effects such as box-shadow to apear over another element

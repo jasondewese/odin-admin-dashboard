@@ -74,6 +74,10 @@ html {
 header {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    padding: 0 50px 15px 50px;
+    box-shadow: 0px 5px 5px #cbd5e1;
+    /*make sit higher in document so box shadow is visible over the main section of the grid*/
+    z-index: 1;
 }
 
 .header-top {
@@ -87,8 +91,6 @@ header {
 }
 
 .head-top-left {
-    
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -96,7 +98,6 @@ header {
 
 .header form {
     width: 100%;
-    padding: 0 50px;
     display: flex;
     align-items: center;
 }
@@ -120,4 +121,69 @@ header {
     border-radius: 15px;
     border: none;
     background-color: #e2e8f0;
+}
+
+.profile-image {
+    width: 3rem;
+}
+
+.head-top-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.head-top-right * {
+    margin: 0 15px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.head-bot-left {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6rem auto;
+}
+
+.profile-icon-big {
+    width: 5rem;
+}
+
+.user-greeting-box {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.greeting {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.user-tag {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.head-bot-right button {
+    background-color: #0284c7;
+    color:#f5f5f5;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-left: max(3rem, 5%);
+}
+
+.head-bot-right {
+    
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
 }

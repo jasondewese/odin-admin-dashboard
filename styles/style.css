@@ -4,7 +4,7 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.15;
 }
 
@@ -226,7 +226,7 @@ main {
 .project-card, .announcements, .trending {
     background-color: #fafafa;
     border-radius: 8px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 5px 5px 5px #cbd5e1;
     /*make sit higher in document so box shadow is visible over the main section of the grid*/
     z-index: 1; 
@@ -241,7 +241,7 @@ main {
 
 .project-description {
     color: #737373;
-    padding-top: 1rem;
+    padding-top: 1.1rem;
 }
 
 .card-icon-wrapper {
@@ -277,7 +277,7 @@ main {
 .trending-item-wrapper {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    padding: 10px 0;
+    
 }
 
 .trending-icon {
@@ -290,7 +290,7 @@ main {
 }
 
 .trending-tag {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .trending-text {
@@ -304,5 +304,9 @@ main {
 
 .trending {
     flex: 1;
+}
+
+.trending-descr {
+    color: #737373;
 }
 /***End main section styling***/
